@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-21T15:44:50.472Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="CI7lx1ahSgt9loyD4B4K" version="22.1.21" type="device">
+<mxfile host="app.diagrams.net" modified="2024-01-23T08:39:48.196Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="-Dvn7Ksy7y0HqRlumYoq" version="22.1.21" type="device">
   <diagram name="Страница — 1" id="RgdUBSA88awXL919eKBp">
     <mxGraphModel dx="1134" dy="678" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -19,7 +19,7 @@
         <mxCell id="9DIFx_ebkTlLZ_afgtF5-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9DIFx_ebkTlLZ_afgtF5-6" target="9DIFx_ebkTlLZ_afgtF5-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9DIFx_ebkTlLZ_afgtF5-6" value="for (int i = 0; &lt;br&gt;i &amp;lt; array1.Length;&lt;br&gt;i++)" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="9DIFx_ebkTlLZ_afgtF5-6" value="for (int i = 0; &lt;br&gt;i &amp;lt; array1.Length;&lt;br&gt;i= i+1)" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="346" y="260" width="136" height="80" as="geometry" />
         </mxCell>
         <mxCell id="9DIFx_ebkTlLZ_afgtF5-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="9DIFx_ebkTlLZ_afgtF5-8" target="9DIFx_ebkTlLZ_afgtF5-10">
@@ -36,7 +36,7 @@
         <mxCell id="9DIFx_ebkTlLZ_afgtF5-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9DIFx_ebkTlLZ_afgtF5-10" target="9DIFx_ebkTlLZ_afgtF5-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9DIFx_ebkTlLZ_afgtF5-10" value="array2[result] = array1[i];&lt;br&gt;result++;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="9DIFx_ebkTlLZ_afgtF5-10" value="array2[result] = array1[i];&lt;br&gt;result= result+1;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="160" y="275" width="140" height="50" as="geometry" />
         </mxCell>
         <mxCell id="9DIFx_ebkTlLZ_afgtF5-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.02;entryY=0.579;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="9DIFx_ebkTlLZ_afgtF5-8" target="9DIFx_ebkTlLZ_afgtF5-6">
